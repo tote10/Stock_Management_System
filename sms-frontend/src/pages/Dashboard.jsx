@@ -597,7 +597,8 @@ export default function Dashboard() {
 
   // -------------------------------------------------------------
   // 2. PROPERTY ADMINISTRATION OFFICER (PAO) DASHBOARD
-  // -----------------------------------------------  if (isPAO) {
+  // -------------------------------------------------------------
+  if (isPAO) {
     const awaitingGrnCount = goodsReceipts.filter((g) => g.status === "Approved").length;
 
     const myTasks = [
